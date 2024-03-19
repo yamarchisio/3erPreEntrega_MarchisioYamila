@@ -1,0 +1,20 @@
+/*  GIFTCARD  */
+.articulo:hover {
+    transform: scale(1.2);
+    border-radius: 40px;
+}
+
+@each $tarjeta in navidad1, navidad2, navidad3, trabajo1, trabajo2, trabajo3 {
+    .#{$tarjeta}-icon {
+        background-image: url("img/#{$tarjeta}.PNG");
+        background-size: cover;
+        background-position: center;
+        filter:grayscale(100%);
+    }
+}
+
+@each $tarjeta in navidad1, navidad2, navidad3, trabajo1, trabajo2, trabajo3 {
+    .#{$tarjeta}-icon:hover {
+        filter:grayscale(0%);
+    }
+}

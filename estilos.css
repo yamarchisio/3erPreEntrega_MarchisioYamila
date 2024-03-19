@@ -1,103 +1,174 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-
-*{
-    font-family: "Lato", sans-serif;
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+  font-family: "Lato", sans-serif;
 }
-
 
 /*  INDEX  */
 .navbar-brand img {
-height: 70px;
+  height: 70px;
 }
+
 .navbar-nav a {
-    color: #000000 !important;
+  color: #000000 !important;
 }
+
 .btn {
-background-color: #006241;
-border-color: #006241;
-color: white;
+  background-color: #006241;
+  border-color: #006241;
+  color: white;
 }
 
 .btn a {
-    background-color: #006241;
-    border-color: #006241;
-    color: white;
-    text-decoration: none;
-    }
-
-.nav-link:hover {
-    color: #006241 !important;
-
+  background-color: #006241;
+  border-color: #006241;
+  color: white;
+  text-decoration: none;
 }
 
-/*  menú colapsado  */
+.nav-link:hover {
+  color: #006241 !important;
+}
+
+/*  menÃº colapsado  */
 .navbar-toggler {
-    background-color: #006241 !important;
-    border-color: #006241 !important;
+  background-color: #006241 !important;
+  border-color: #006241 !important;
 }
 
 .navbar-toggler-icon {
-color: white !important;
-border-color: white !important;
+  color: white !important;
+  border-color: white !important;
 }
 
 .Jumbotron {
-height: 450px;
-background-image: url(img/coffee-7045578_1280.jpg);
-font-weight: bold;
+  height: 450px;
+  background-image: url(img/coffee-7045578_1280.jpg);
+  font-weight: bold;
 }
 
-h2{
-    text-align: center;
-    background-color: #006241 ;
-    padding: 20px;
-    font-weight: bold;
-    color: white;
-    text-shadow: 0 0 5px #000;
-    margin-bottom: 0;
+h2 {
+  text-align: center;
+  background-color: #006241;
+  padding: 20px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 0 5px #000000;
+  margin-bottom: 0;
 }
 
 .nleft1 {
-    background-image: url(img/img_menu.PNG);
-    background-size: cover;
-    background-position: center;
-    height: 350px;
+  background-image: url(img/img_menu.PNG);
+  background-size: cover;
+  background-position: center;
+  height: 350px;
 }
+
 .nright1 {
-    padding: 10px;
+  padding: 10px;
 }
+
 .nright2 {
-    background-image: url(img/img_giftcard);
-    background-size: cover;
-    background-position: center;
-    height: 350px;
+  background-image: url(img/img_giftcard);
+  background-size: cover;
+  background-position: center;
+  height: 350px;
 }
+
 .nleft2 {
-    padding: 10px;
+  padding: 10px;
 }
 
 /*  FOOTER  */
-footer{
-    background-color: #006241;
-    color: white;
-    text-align: center;
-    padding: 30px;
-    font-size: 30px;
+footer {
+  background-color: #006241;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
 }
+
 footer a {
-    text-decoration: none;
-    color: #fff;
-    letter-spacing: 10px;
-}
-
-
-/*  PRODUCTOS  */
-.card {
-    text-align: center !important;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 10px;
 }
 
 /*  GIFTCARD  */
 .articulo:hover {
-    transform: scale(1.2);
-    border-radius: 40px;
+  transform: scale(1.2);
+  border-radius: 40px;
 }
+
+.navidad1-icon {
+  background-image: url("img/navidad1.PNG");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+
+.navidad2-icon {
+  background-image: url("img/navidad2.PNG");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+
+.navidad3-icon {
+  background-image: url("img/navidad3.PNG");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+
+.trabajo1-icon {
+  background-image: url("img/trabajo1.PNG");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+
+.trabajo2-icon {
+  background-image: url("img/trabajo2.PNG");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+
+.trabajo3-icon {
+  background-image: url("img/trabajo3.PNG");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+
+.navidad1-icon:hover {
+  filter: grayscale(0%);
+}
+
+.navidad2-icon:hover {
+  filter: grayscale(0%);
+}
+
+.navidad3-icon:hover {
+  filter: grayscale(0%);
+}
+
+.trabajo1-icon:hover {
+  filter: grayscale(0%);
+}
+
+.trabajo2-icon:hover {
+  filter: grayscale(0%);
+}
+
+.trabajo3-icon:hover {
+  filter: grayscale(0%);
+}
+
+/*  PRODUCTOS  */
+.card {
+  text-align: center !important;
+}
+
+/*# sourceMappingURL=estilos.css.map */
